@@ -1,0 +1,88 @@
+## tail
+
+denisden@LAPTOP-RMQ088BV:~/python/hw1$ tail file.txt input.txt
+==> file.txt <==
+dskfdkfjsdklf
+
+fsdfsd
+ff
+fsdf
+eref
+sfsf
+
+==> input.txt <==
+dskfdkfjsdklf
+
+fsdfsd
+ff
+fsdf
+eref
+sfsf
+denisden@LAPTOP-RMQ088BV:~/python/hw1$ python3 tail.py file.txt input.txt
+==> file.txt <==
+dskfdkfjsdklf
+
+fsdfsd
+ff
+fsdf
+eref
+sfsf
+
+==> input.txt <==
+dskfdkfjsdklf
+
+fsdfsd
+ff
+fsdf
+eref
+sfsf
+denisden@LAPTOP-RMQ088BV:~/python/hw1$ tail file.txt input.tx
+==> file.txt <==
+dskfdkfjsdklf
+
+fsdfsd
+ff
+fsdf
+eref
+sfsf
+tail: cannot open 'input.tx' for reading: No such file or directory
+denisden@LAPTOP-RMQ088BV:~/python/hw1$ python3 tail.py file.txt input.tx
+==> file.txt <==
+dskfdkfjsdklf
+
+fsdfsd
+ff
+fsdf
+eref
+sfsf
+
+tail: cannot open 'input.tx' for reading: No such file or directory
+denisden@LAPTOP-RMQ088BV:~/python/hw1$ cat file.txt input.txt | python3 tail.py
+dskfdkfjsdklf
+
+fsdfsd
+ff
+fsdf
+eref
+sfsf
+dskfdkfjsdklf
+
+fsdfsd
+ff
+fsdf
+eref
+sfsf
+
+denisden@LAPTOP-RMQ088BV:~/python/hw1$ cat file.txt input.txt | tail
+fsdf
+eref
+sfsf
+dskfdkfjsdklf
+
+fsdfsd
+ff
+fsdf
+eref
+sfsf
+denisden@LAPTOP-RMQ088BV:~/python/hw1$
+

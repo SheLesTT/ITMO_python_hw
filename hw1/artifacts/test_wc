@@ -1,0 +1,28 @@
+## wc
+
+denisden@LAPTOP-RMQ088BV:~/python/hw1$ wc wc.py
+  62  172 1979 wc.py
+denisden@LAPTOP-RMQ088BV:~/python/hw1$ python3 wc.py wc.py
+  62  172 1979 wc.py
+denisden@LAPTOP-RMQ088BV:~/python/hw1$ wc wc.py tail.py
+  62  172 1979 wc.py
+  30   87  916 tail.py
+  92  259 2895 total
+denisden@LAPTOP-RMQ088BV:~/python/hw1$ python3 wc.py wc.py tail.py
+  62  172 1979 wc.py
+  30   87  916 tail.py
+  62  172 1979 total
+denisden@LAPTOP-RMQ088BV:~/python/hw1$ cat file.txt input.txt |wc
+     14      12      87
+denisden@LAPTOP-RMQ088BV:~/python/hw1$ cat file.txt input.txt | python3 wc.py
+   14    12    87
+denisden@LAPTOP-RMQ088BV:~/python/hw1$ wc wc.py tail.p
+  62  172 1979 wc.py
+wc: tail.p: No such file or directory
+  62  172 1979 total
+denisden@LAPTOP-RMQ088BV:~/python/hw1$ python3 wc.py wc.py tail.p
+  62  172 1979 wc.py
+wc: tail.p: No such file or directory
+  62  172 1979 total
+
+

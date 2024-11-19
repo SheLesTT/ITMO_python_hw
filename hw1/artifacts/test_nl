@@ -1,0 +1,95 @@
+## nl
+
+denisden@LAPTOP-RMQ088BV:~/python/hw1$ nl -b a file.txt input.txt
+     1  dskfdkfjsdklf
+     2
+     3  fsdfsd
+     4  ff
+     5  fsdf
+     6  eref
+     7  sfsf
+     8  dskfdkfjsdklf
+     9
+    10  fsdfsd
+    11  ff
+    12  fsdf
+    13  eref
+    14  sfsf
+denisden@LAPTOP-RMQ088BV:~/python/hw1$ python3 nl.py file.txt input.txt
+    0 dskfdkfjsdklf
+    1
+    2 fsdfsd
+    3 ff
+    4 fsdf
+    5 eref
+    6 sfsf
+    7 dskfdkfjsdklf
+    8
+    9 fsdfsd
+    10 ff
+    11 fsdf
+    12 eref
+    13 sfsf
+denisden@LAPTOP-RMQ088BV:~/python/hw1$ nl -b a file.txt input.txt
+     1  dskfdkfjsdklf
+     2
+     3  fsdfsd
+     4  ff
+     5  fsdf
+     6  eref
+     7  sfsf
+     8  dskfdkfjsdklf
+     9
+    10  fsdfsd
+    11  ff
+    12  fsdf
+    13  eref
+    14  sfsf
+denisden@LAPTOP-RMQ088BV:~/python/hw1$ python3 nl.py file.txt input.txt
+    1 dskfdkfjsdklf
+    2
+    3 fsdfsd
+    4 ff
+    5 fsdf
+    6 eref
+    7 sfsf
+    8 dskfdkfjsdklf
+    9
+    10 fsdfsd
+    11 ff
+    12 fsdf
+    13 eref
+    14 sfsf
+denisden@LAPTOP-RMQ088BV:~/python/hw1$ cat file.txt input.txt | nl -b a
+     1  dskfdkfjsdklf
+     2
+     3  fsdfsd
+     4  ff
+     5  fsdf
+     6  eref
+     7  sfsf
+     8  dskfdkfjsdklf
+     9
+    10  fsdfsd
+    11  ff
+    12  fsdf
+    13  eref
+    14  sfsf
+
+denisden@LAPTOP-RMQ088BV:~/python/hw1$ cat file.txt input.txt | python3 nl.py
+    1 dskfdkfjsdklf
+    2
+    3 fsdfsd
+    4 ff
+    5 fsdf
+    6 eref
+    7 sfsf
+    8 dskfdkfjsdklf
+    9
+    10 fsdfsd
+    11 ff
+    12 fsdf
+    13 eref
+    14 sfsf
+denisden@LAPTOP-RMQ088BV:~/python/hw1$
+
